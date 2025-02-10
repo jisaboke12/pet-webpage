@@ -1,0 +1,12 @@
+body {
+  font-size: 23px;
+  font-family: Arial, sans-serif;
+  line-height: 30px;
+  color: #003B6D;
+}
+
+.fishPics {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}

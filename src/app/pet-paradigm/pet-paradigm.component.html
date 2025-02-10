@@ -1,33 +1,20 @@
-
 <body>
-<div class="body-content">
-  <div class="header">
-    <img id="logo" src="assets/images/image2.png" alt="Logo" width="200px" height="200px">
-    <img src="assets/images/image3.png" alt="Pet Paradigm Professionals" width="300px" height="150px">
-    <form style="text-align: center;" method="get" action="form.html" target="_blank">
-      <input id="consult-button" type="submit" value="Consult With Us Now!"/>
-    </form>
-  </div>
 
-  <div id="navbar">
-    <a class="link active" href="pet Paradigm.html">Home</a>
-    <a class="link" href="form.html">Consultation</a>
-    <a class="link" href="cats.html">Cats</a>
-    <a class ="link" href="dogs.html">Dogs</a>
-    <a class="link" href="fish.html">Fish</a>
-    <div class="search-container">
-      <form action="/action_page.php">
-        <input type="text" placeholder="Search.." name="search">
-        <button type="submit"><i class="fa fa-search"></i></button>
-      </form>
-    </div>
-  </div>
+
+<div class="body-content">
 
   <div class="homepage-table">
     <p><br>
-      Pets are nature's gift to humanity. It has been scientifically proven that opening our homes and hearts to a pet increases our longevity and improves our overall quality of life as well as the lives of our pets. At Pet Paradigm Professionals, our mission is to offer resources to help you care for your furry, scaly, feathery, and slimy loved ones. Our pet experts or &ldquo;Pexperts&ldquo; have been working with pet owners and professionals alike for the past twelve years. They offer one-on-one consultations with current and prospective pet owners as well as group presentations designed for veterinary, pet shelter, and pet breeding professionals.
+      Pets are nature's gift to humanity. It has been scientifically proven that opening our homes and hearts to a pet
+      increases our longevity and improves our overall quality of life as well as the lives of our pets. At Pet Paradigm
+      Professionals, our mission is to offer resources to help you care for your furry, scaly, feathery, and slimy loved
+      ones. Our pet experts or &ldquo;Pexperts&ldquo; have been working with pet owners and professionals alike for the
+      past twelve years. They offer one-on-one consultations with current and prospective pet owners as well as group
+      presentations designed for veterinary, pet shelter, and pet breeding professionals.
     </p>
-    <p>Looking for basic pet care advice for the most common type of pets? Need additional help determining which type of pet is right for you and your family? We will work with you and provide tailored evidence-based pet care to ensure lifelong health and wellness of your new companion.
+    <p>Looking for basic pet care advice for the most common type of pets? Need additional help determining which type
+      of pet is right for you and your family? We will work with you and provide tailored evidence-based pet care to
+      ensure lifelong health and wellness of your new companion.
     </p>
     <br>
     <table>
@@ -40,57 +27,61 @@
         <th style="color: #003B6D">Fish</th>
       </tr>
       <tr>
-        <td><a href="cats.html"><img id="cats" src="assets/images/image9.jpg" alt="a cat" width="300px" height="250px" title="Click Me" onmouseover="hoverCats(this);" onmouseout="hoverOutCats(this);"/></a></td>
-        <td><a href="dogs.html"><img id="dogs" src="assets/images/image6.jpg" alt="" width="300px" height="250px" title="Click Me" onmouseover="hoverDogs(this);" onmouseout="hoverOutDogs(this);"/></a></td>
-        <td><a href="fish.html"><img id="fish" src="assets/images/image16.jpg" alt="" width="300px" height="250px" title="Click Me" onmouseover="hoverfish(this);" onmouseout="hoverOutfish(this)"></a></td>
+        <td><a [routerLink]="['/cats']" routerLinkActive="active" class="nav-link"><img id="cats"
+                                                                                        src="assets/images/image9.jpg"
+                                                                                        alt="a cat" width="300px"
+                                                                                        height="250px" title="Click Me"
+                                                                                        onmouseover="hoverCats(this);"
+                                                                                        onmouseout="hoverOutCats(this);"/></a>
+        </td>
+        <td><a [routerLink]="['/dogs']" routerLinkActive="active" class="nav-link"><img id="dogs"
+                                                                                        src="assets/images/image6.jpg"
+                                                                                        alt="" width="300px"
+                                                                                        height="250px" title="Click Me"
+                                                                                        onmouseover="hoverDogs(this);"
+                                                                                        onmouseout="hoverOutDogs(this);"/></a>
+        </td>
+        <td><a [routerLink]="['/fish']" routerLinkActive="active" class="nav-link"><img id="fish"
+                                                                                        src="assets/images/image16.jpg"
+                                                                                        alt="" width="300px"
+                                                                                        height="250px" title="Click Me"
+                                                                                        onmouseover="hoverfish(this);"
+                                                                                        onmouseout="hoverOutfish(this)"></a>
+        </td>
       </tr>
     </table>
-    <br><hr>
+    <br>
+    <hr>
   </div>
-  <p style="margin: auto; text-align: left;">Looking for your new best friend? The following organizations can help you find and adopt the perfect companion:</p>
+  <p style="margin: auto; text-align: left;">Looking for your new best friend? The following organizations can help you
+    find and adopt the perfect companion:</p>
   <ul>
     <li><a href="https://theshelterpetproject.org/" target="_blank">The Shelter Pet Project</a></li>
     <li><a href="https://www.aspca.org/" target="_blank">ASPCA</a></li>
-    <li><a href="https://www.sterlingshelter.org/humane-society/koi-fish-rescue/" target="_blank">Sterling Shelter</a></li>
-    <li><a href="https://savethesnakes.org/snakerescuecall/" target="_blank" >Snake Rescue</a></li>
+    <li><a href="https://www.sterlingshelter.org/humane-society/koi-fish-rescue/" target="_blank">Sterling Shelter</a>
+    </li>
+    <li><a href="https://savethesnakes.org/snakerescuecall/" target="_blank">Snake Rescue</a></li>
     <li><a href="https://ftlob.rescuegroups.org/" target="_blank">Bird Rescue</a></li>
   </ul>
 
   <p style="margin: auto; text-align: left; padding-bottom: 20px; line-height: 30px;">
-    We are also happy to help you navigate the adoption process! We will guide you through each step in the process from determining which type of pet is best suited for your family and home environment, to completing the necessary paperwork, to bringing your new loved one home. Please fill out our contact form to request a consultation. We will contact you within 48 hours to schedule a consultation. All fields are required.
+    We are also happy to help you navigate the adoption process! We will guide you through each step in the process from
+    determining which type of pet is best suited for your family and home environment, to completing the necessary
+    paperwork, to bringing your new loved one home. Please fill out our contact form to request a consultation. We will
+    contact you within 48 hours to schedule a consultation. All fields are required.
   </p>
 </div>
 <h3>About Us</h3>
 <hr id="about-us">
-<p style="text-align: left; font-family: Arial, sans-serif; line-height: 30px; width: 100%; margin-bottom: 50px;"><img align="right" class="two-guys" src="assets/images/image5.jpg"><strong>Slogan:</strong> Evidence-based pet care advice for every pet lover<br><br>
-  <strong>Brand Values:</strong> Paradigm Pet Professionals has 12 years&rsquo; experience working with pet owners, certifications in pet health and nutrition, and customer recognition for outstanding support<br><br>
-  <strong>Services:</strong> virtual consultations and presentations, one-on-one consultations concerning individual pets, group presentations regarding general pet care (can be tailored to the needs of the group)
+<p style="text-align: left; font-family: Arial, sans-serif; line-height: 30px; width: 100%; margin-bottom: 50px;"><img
+  align="right" class="two-guys" src="assets/images/image5.jpg"><strong>Slogan:</strong> Evidence-based pet care advice
+  for every pet lover<br><br>
+  <strong>Brand Values:</strong> Paradigm Pet Professionals has 12 years&rsquo; experience working with pet owners,
+  certifications in pet health and nutrition, and customer recognition for outstanding support<br><br>
+  <strong>Services:</strong> virtual consultations and presentations, one-on-one consultations concerning individual
+  pets, group presentations regarding general pet care (can be tailored to the needs of the group)
 </p><br><br>
 <footer>
-  <p>Contact us: <a href="mailto:petparadignm@example.com">petparadigm&#64;example.com</a>                  </p>
+  <p>Contact us: <a href="mailto:petparadignm@example.com">petparadigm&#64;example.com</a></p>
 </footer>
-<script>
-  window.onscroll = function() {myFunction()};
-
-  const navbar = document.getElementById("navbar");
-  const sticky = navbar.offsetTop;
-
-  function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky")
-    } else {
-      navbar.classList.remove("sticky");
-    }
-  }
-
-  const header = document.getElementById("navbar");
-  const btns = header.getElementsByClassName("link");
-  for (let i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function() {
-      const current = document.getElementsByClassName("active");
-      current[0].className = current[0].className.replace(" active", "");
-      this.className += " active";
-    });
-  }
-</script>
 </body>

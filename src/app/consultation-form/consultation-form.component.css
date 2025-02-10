@@ -1,0 +1,77 @@
+.container {
+  width: 97%;
+  background: linear-gradient(150deg, #BDBDBD, #676767);
+  padding: 25px 30px;
+  border-radius: 5px;
+  height: 900px;
+  margin-top: 20px;
+
+
+}
+.container .title {
+  font-size: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.user-details {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.user-details input {
+  width: 99%;
+  height: 40px;
+
+}
+.user-details label {
+  display: flex;
+  justify-content: flex-start;
+
+
+}
+
+.user-details #other {
+
+}
+
+#submit {
+  width: 150px;
+  height: 50px;
+}
+
+hr {
+  border: 1px solid #003B6D;
+}
+
+footer {
+  display: block;
+  margin-bottom: -500px;
+  text-align: center;
+  background-color: #BDBDBD;
+  text-decoration: none;
+  font-size: 23px;
+  font-family: Arial, sans-serif;
+  line-height: 21px;
+
+}
+
+footer p {
+  display: block;
+  padding: 14px 16px;
+  font-weight: bold;
+  color: #003B6D;
+}
+
+select {
+  height: 30px;
+}
+
+#submit {
+  cursor: pointer;
+
+}
+
+#submit:hover {
+  background-color: #BDBDBD;
+}

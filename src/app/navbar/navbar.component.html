@@ -1,0 +1,39 @@
+<div class="header">
+  <img id="logo" src="assets/images/image2.png" alt="Logo" width="200px" height="200px">
+  <img src="assets/images/image3.png" alt="Pet Paradigm Professionals" width="300px" height="150px">
+</div>
+<nav class="navbar navbar-expand-lg navbar-light sticky-navbar" >
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar"
+          aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<div class="collapse navbar-collapse"  id="navbar">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a [routerLink]="['/pet-paradigm']" routerLinkActive="active" class="nav-link">Home</a>
+    </li>
+<li>
+  <a [routerLink]="['/consultation']"  routerLinkActive="active" class="nav-link">Consultation</a>
+</li>
+    <li class="nav-item">
+  <a [routerLink]="['/cats']"  routerLinkActive="active" class="nav-link">Cats</a>
+    </li>
+    <li class="nav-item">
+  <a [routerLink]="['/dogs']"  routerLinkActive="active" class="nav-link">Dogs</a>
+    </li>
+    <li class="nav-item">
+  <a [routerLink]="['/fish']"  routerLinkActive="active" class="nav-link">Fish</a>
+    </li>
+  </ul>
+  <div class="search-container ms-auto">
+    <form action="/action_page.php" class="d-flex">
+      <input type="text" placeholder="Search.." name="search"  class="form-control me-2">
+      <button type="submit"><i class="btn btn-outline-secondary">Search</i></button>
+    </form>
+  </div>
+</div>
+</nav>
+
+<a style="text-align: center;" [routerLink]="['/consultation']"  routerLinkActive="active" class="nav-link" id="consult-button">
+  Consult with us now!
+</a>
