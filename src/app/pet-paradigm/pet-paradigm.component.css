@@ -1,10 +1,19 @@
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-size: 23px;
   font-family: Arial, sans-serif;
-  line-height: 21px;
+  line-height: 30px;
   color: #003B6D;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
 }
+
 table {
   text-align: center;
   margin: auto;
@@ -39,24 +48,7 @@ hr {
   border: 1px solid #6699CC;
 }
 
-footer {
-  display: block;
-  text-align: center;
-  background-color: #BDBDBD;
-  text-decoration: none;
-  font-size: 23px;
-  font-family: Arial, sans-serif;
-  line-height: 21px;
-  padding: 5px 14px;
 
-}
-
-footer p {
-  display: block;
-  padding: 14px 16px;
-  font-weight: bold;
-  color: #003B6D;
-}
 
 /* about-us is an hr */
 #about-us {
@@ -70,5 +62,4 @@ footer p {
   height: auto;
   float: right;
   margin-left: auto;
-  display: block;
 }

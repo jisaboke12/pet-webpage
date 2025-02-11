@@ -16,12 +16,14 @@ body {
   font-weight: bold;
   border-radius: 8px;
   cursor: pointer;
-  margin-left: auto;
-  margin-right: 20px;
+  position: absolute;
+  top: 150px;
+  right: 25px;
   animation:glowing 2s infinite;
-  display: block;
-  margin-top: 10px;
-  text-align: center;
+}
+
+#consult-button:hover {
+  animation-play-state: paused;
 }
 
 .sticky-navbar {
@@ -37,17 +39,9 @@ body {
 }
 
 
-#consult-button:hover {
-  animation-play-state: paused;
-}
 
-#consult-button.sticky {
-  position: fixed;
-  top: 70px;
-  left: 95%;
-  transform: translate(-50%);
-  z-index: 1000;
- }
+
+
 
 @keyframes transitionIn {
   from { opacity: 0;

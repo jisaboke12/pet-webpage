@@ -1,8 +1,14 @@
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
   font-size: 23px;
   font-family: Arial, sans-serif;
   line-height: 30px;
   color: #003B6D;
+  min-height: 100vh;
 }
 
 .catsFirst {
@@ -14,19 +20,4 @@ body {
   width: 60%
 }
 
-footer {
-  display: block;
-  text-align: center;
-  background-color: #BDBDBD;
-  font-size: 23px;
-  font-family: Arial, sans-serif;
-  line-height: 21px;
 
-}
-
-footer p {
-  display: block;
-  padding: 14px 16px;
-  font-weight: bold;
-  color: #003B6D;
-}
